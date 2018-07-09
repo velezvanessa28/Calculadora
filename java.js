@@ -23,6 +23,16 @@ if (calcular === 'Transformar onzas a toneladas') {
 			alert('Tu resultado es ' + factorizado);
 		}
 	}
+	var otraVez = prompt ('Quieres hacer otra operacion?');
+ if (otraVez === "Si") {
+ 	
+location.reload();
+} 
+
+else if (otraVez === "No") {
+	alert("Espero que te haya servido :)");
+}
+
 
 
 
